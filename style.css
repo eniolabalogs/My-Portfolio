@@ -443,6 +443,15 @@ footer .copyright{
     #menu-icon{
         display: block;
     }
+    .header .logo{
+        font-size: 2rem;
+        color: var(--text-color);
+        font-weight: 800;
+        cursor: pointer;
+        transition: 0.5s ease;
+        text-decoration: none;
+        margin-left: 120px;
+    }
     .navbar{
         position:absolute;
         top: 100%;
@@ -497,7 +506,7 @@ footer .copyright{
     .skills .container .row{
         grid-template-columns: repeat(2,1fr);/*<- For the number of columns I want in skills*/
         flex-wrap: wrap;
-        gap: 2rem;
+        gap: 0rem;
     }
     .contact-bigger{
         font-size: 18px
