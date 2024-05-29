@@ -506,9 +506,17 @@ footer .copyright{
     .skills .container .row{
         grid-template-columns: repeat(2,1fr);/*<- For the number of columns I want in skills*/
         flex-wrap: wrap;
-        gap: 0rem;
+        gap: 3rem;
     }
     .contact-bigger{
         font-size: 18px
     }
+    .skills .container{
+        background: var(--bg-color);
+        color: var(--text-color);
+        border-radius: 3rem;
+        padding: 5rem;
+        width: 100%;
+        margin-top: 2rem;
+        margin: auto;
 }
