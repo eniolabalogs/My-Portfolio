@@ -186,27 +186,28 @@
         <h2 class="heading"> Contact <span>Me</span></h2>
         <div class="contact-bigger">
             <div class="contact_info_container">
-                <a href="mailto:dbalogun2023@gmail.com"><i class="bx bxs-envelope"></i>dbalogun2023@gmail.com</a></p>
+                <a href="mailto:dbalogun2023@gmail.com"><i class="bx bxs-envelope"></i>dbalogun2023@gmail.com</a>
             </div>
         </div>
-        <form action="">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="d22e25eb-2690-4346-a35e-b0d0b8cddb45">
             <div class="input-group">
                 <div class="input-box">
-                    <input type="text" placeholder="Full Name">
-                    <input type="email" placeholder="Email">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
                 </div>
                 <div class="input-box">
-                    <input type="number" placeholder="Phone Number">
-                    <input type="text" placeholder="Subject">
+                    <input type="tel" name="phone" placeholder="Phone Number">
+                    <input type="text" name="subject" placeholder="Subject" required>
                 </div>
             </div>
             <div class="input-group-2">
-                <textarea name="" id="" cols="30"  rows="10" placeholder="Your Message"></textarea>
+                <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
                 <input type="submit" value="Send Message" class="btn">
             </div>
         </form>
-
     </section>
+    
     <footer>
         <div class="social-icons">
             <a href="https://github.com/eniolabalogs">
