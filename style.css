@@ -462,7 +462,7 @@ footer .copyright{
         color: var(--text-color);
     }
     .navbar ul li a{
-        font-size: 15px
+        font-size: 15px;
     }
     .navbar.active{
         display: block;
@@ -476,9 +476,6 @@ footer .copyright{
         align-items:center;
         text-align: center;
     }
-    .home-image{
-        width: 52vw;
-    }
     .about{
         flex-direction: column-reverse;
         text-align: center;
@@ -490,15 +487,19 @@ footer .copyright{
     .about-img{
         width: 52vw
     }
+    .skills .heading{
+        font-size: 30px;
+        text-align: center;
+    }
     .contact form{
         flex-direction: column;
     }
     .skills .container .row{
         grid-template-columns: repeat(2,1fr);/*<- For the number of columns I want in skills*/
         flex-wrap: wrap;
-        gap: 8rem;
+        gap: 4rem;
     }
     .contact-bigger{
-        font-size: 20px
+        font-size: 18px
     }
 }
